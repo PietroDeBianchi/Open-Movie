@@ -1,11 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const { getResponse } = require('../controllers/openaiController');
+const { getResponse, getMovies } = require('../controllers/openaiController');
 
 //////////////////////////////////////////////////
 // ASSISTANT INTERACTIONS
 //////////////////////////////////////////////////
 router.post('/assistantResponse', getResponse);
-
+//////////////////////////////////////////////////
+// DATA
+//////////////////////////////////////////////////
+router.get('/getMovies', getMovies);
 
 module.exports = router;
