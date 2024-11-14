@@ -1,6 +1,6 @@
 # 🎬 MovieChat AI
 
-MovieChat AI è un'applicazione che utilizza le API di OpenAI per cercare film in base a un prompt testuale, sfruttando un database di film aggiornato al 2023.
+MovieChat AI è un'applicazione che utilizza le API di OpenAI per cercare film in base a un prompt testuale, sfruttando un database di film `Full TMDB Movies Dataset 2024 (1M Movies)` su Kaggle.
 
 ## ✅ Prerequisiti
 
@@ -33,3 +33,5 @@ Il progetto utilizza il [dataset di film da TMDb](https://www.kaggle.com/dataset
     > **Nota:** Rimuovendo il commento, il file verrà importato ogni volta che il programma viene avviato. Ricorda di ricommentare questa linea dopo il primo avvio per evitare caricamenti duplicati.
 
 
+## 🚀 Funzionalità principali
+MovieChat AI mantiene le sessioni di chat per ogni utente utilizzando un sistema di sessioni in memoria. La funzione getResponse gestisce l'interazione con OpenAI per fornire risposte basate sui film del dataset. `{{url}}/api/{{v}}/assistantResponse`
