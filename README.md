@@ -17,14 +17,14 @@ Il progetto utilizza il [dataset di film da TMDb](https://www.kaggle.com/dataset
 ## 🛠️ Configurazione del progetto
 
 1. **Clona la repository:**
-    git clone https://github.com/shadapps/movie-chat-ai.git
+    - `git clone https://github.com/shadapps/movie-chat-ai.git`
 
 2. **Accedi alla cartella del progetto e installa le dipendenze:**
-    npm install
+    - `npm install`
 
 3. **Configura le variabili d'ambiente:**
-    MONGODB_URI=your_mongodb_connection_string
-    OPENAI_API_KEY=your_openai_api_key
+    - MONGODB_URI=`your_mongodb_connection_string`
+    - OPENAI_API_KEY=`your_openai_api_key`
 
 4. **Carica il dataset su MongoDB:**
     - Scarica il file del dataset in formato CSV dal [link sopra riportato](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies).
