@@ -34,4 +34,4 @@ Il progetto utilizza il [dataset di film da TMDb](https://www.kaggle.com/dataset
 
 
 ## 🚀 Funzionalità principali
-MovieChat AI mantiene le sessioni di chat per ogni utente utilizzando un sistema di sessioni in memoria. La funzione getResponse gestisce l'interazione con OpenAI per fornire risposte basate sui film del dataset. `{{url}}/api/{{v}}/assistantResponse`
+MovieChat AI mantiene le sessioni di chat per ogni utente utilizzando un sistema di sessioni in memoria. La funzione getResponse gestisce l'interazione con OpenAI per fornire risposte basate sui film del dataset. Chiamata API : `{{url}}/api/{{v}}/assistantResponse`
