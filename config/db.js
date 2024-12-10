@@ -17,8 +17,6 @@ const connectDB = async () => {
     console.log(`✅ MongoDB connected: ${connection.connection.host}`.green);
     // Access the current database instance
     const db = mongoose.connection.db;
-    // Active csv data import
-    // await convertCsvToJsonAndImport(CSV_FILE_PATH)
   } catch (err) {
     console.error("Moviebase connection error:", err);
     process.exit(1);

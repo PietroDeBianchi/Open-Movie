@@ -21,7 +21,7 @@ const fetchMovies = async (limit = 100) => {
 // In-memory storage for user sessions
 const sessions = {};
 
-exports.getResponse = async (req, res) => {
+exports.movieSession = async (req, res) => {
     try {
         const { prompt, chatId } = req.body;
         
@@ -64,7 +64,7 @@ exports.getResponse = async (req, res) => {
         // Return assistant's response to the client
         res.status(200).json({ message: assistantMessage});
     } catch (err) {
-        console.error("Error in getResponse:", err);
+        console.error("Error in movieSession:", err);
         res.status(500).json({ message: "Server error" });
     }
 };

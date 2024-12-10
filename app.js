@@ -9,7 +9,7 @@ const connectDB = require("./config/db");
 // CONST
 const PORT = process.env.PORT || 3000;
 const V = process.env.API_VERSION || 'v1';
-const PROJECT_NAME = process.env.PROJECT_NAME || 'OpenMovie';
+const PROJECT_NAME = process.env.PROJECT_NAME || 'AI';
 
 // APP
 const app = express();
