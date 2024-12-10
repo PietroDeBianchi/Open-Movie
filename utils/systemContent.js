@@ -1,4 +1,4 @@
-const systemContent = {
+const moviesystemContent = {
     movie: `Remember each movie object includes the following fields:
                 - id (Number, unique, required): Unique identifier for the movie.
                 - title (String, required): The title of the movie.
@@ -28,4 +28,4 @@ const systemContent = {
 };
 
 // Esporta l'array
-module.exports = systemContent;
+module.exports = { moviesystemContent };

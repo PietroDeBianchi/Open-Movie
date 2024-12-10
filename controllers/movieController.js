@@ -1,5 +1,5 @@
 const openai = require('../config/openaiConfig');
-const systemContent = require("../utils/systemContent");
+const { moviesystemContent } = require("../utils/systemContent");
 const Movie = require("../models/Movie");
 
 //////////////////////////////////////////////////
@@ -37,7 +37,7 @@ exports.movieSession = async (req, res) => {
             const jsonMovie = JSON.stringify(data);
             // Add initial system message with context and movie data
             sessions[chatId] = [
-                { role: 'system', content: `${systemContent.movie} ${jsonMovie}` },
+                { role: 'system', content: `${moviesystemContent.movie} ${jsonMovie}` },
             ];
         }
         
