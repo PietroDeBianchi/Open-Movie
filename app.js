@@ -34,4 +34,4 @@ const logStartupMessage = async () => {
 // Start the server
 app.listen(PORT, () => {
     logStartupMessage();
-  });
+});
